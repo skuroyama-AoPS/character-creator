@@ -6,3 +6,11 @@
   text-align: center;
 }
 
+a {
+	color: white;
+}
+
+a:hover {
+	color: rgb(216, 227, 237);
+}
+

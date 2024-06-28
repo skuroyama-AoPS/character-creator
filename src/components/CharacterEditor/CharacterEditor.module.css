@@ -1,12 +1,18 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+	min-height: calc(100vh - 128px - 30px);
 }
 
 .maxWidthWrapper {
+	/* background-color:bisque; */
+	padding-top: 64px;
+	position: relative;
 }
 
 .header {
+	max-width:65%;
+	width:65%;
   padding-bottom: 64px;
 }
 
@@ -21,10 +27,22 @@
 .description {
   font-size: 1.25rem;
   margin: 0;
+	max-width: 100%;
+	overflow-x: scroll;
 }
 
 .characterWrapper {
+	position: fixed;
+	top: 12rem;
+	right: 2vw;
+	bottom: 10%;
+
+	width: 40vw;
+	min-height: 30rem;
+	pointer-events: none; /* allow scrolling over the character */
 }
 
 .controlColumn {
+	max-width: 50%;
+	width: 50%;
 }
