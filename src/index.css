@@ -28,6 +28,13 @@ body {
 }
 
 /*
+ * Mobile styles
+ */
+
+@media (max-width: 800px) {
+}
+
+/*
   A utility class to totally remove something from the screen,
   while still keeping it available for screen-readers.
 */
