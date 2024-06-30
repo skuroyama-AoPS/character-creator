@@ -44,7 +44,7 @@
 .characterWrapper {
 	position: fixed;
 	top: 12rem;
-	right: 2vw;
+	left: 55%;
 	bottom: 10%;
 
 	width: 40vw;
